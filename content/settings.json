@@ -1,17 +1,17 @@
 {
   "heroImage": "",
-  "heroEyebrow": "UNIOSUN STUDENT ACCOMMODATION",
-  "heroHeadline": "Find a place you can call home.",
-  "heroIntro": "Browse apartments, self-contained rooms, houses and other accommodation options around UNIOSUN. Send a request and let Ayomigbade Hostel Hub help you find a suitable place.",
-  "howItWorksTitle": "How it works",
-  "howItWorksSubtitle": "Simple for students, simple for you.",
-  "step1Title": "Search",
-  "step1Text": "Check available properties by type and location.",
-  "step2Title": "Send a request",
-  "step2Text": "Tell us your budget, preferred area and accommodation type.",
+  "contactText": "Chat with Ayomigbade Hostel Hub directly on WhatsApp or give us a call.",
+  "heroHeadline": "Find your space stress free.",
+  "heroEyebrow": "STUDENT ACCOMMODATION",
   "step3Title": "Connect",
+  "howItWorksTitle": "Simple Steps.........",
+  "step1Text": "Check available properties by type and location.",
+  "heroIntro": "Browse apartments, self-contained rooms, houses and other accommodation options around UNIOSUN. Send a request and let Ayomigbade Hostel Hub help you find a suitable place.",
+  "step2Title": "Send a request",
+  "footerNotice": "Student accommodation around UNIOSUN • Version 2",
+  "step2Text": "Tell us your budget, preferred area and accommodation type.",
+  "step1Title": "Search",
   "step3Text": "Get property information and contact the Hub through WhatsApp or phone.",
   "contactHeadline": "Need help finding accommodation?",
-  "contactText": "Chat with Ayomigbade Hostel Hub directly on WhatsApp or give us a call.",
-  "footerNotice": "Student accommodation around UNIOSUN • Version 2"
+  "howItWorksSubtitle": "Simple for students, simple for you."
 }
