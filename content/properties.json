@@ -1,13 +1,14 @@
 {
   "properties": [
     {
-      "title": "A room Selfcon",
-      "type": "Single Room Selfcon",
-      "location": "URP, Area Uniosun Osogbo",
-      "price": "₦470,000 / session ",
-      "status": "Available",
-      "featured": false,
       "notes": "Student-friendly",
+      "price": "₦470,000 / session ",
+      "featured": false,
+      "status": "Available",
+      "location": "URP, Area Uniosun Osogbo",
+      "title": "A room Selfcon",
+      "images": "/images/20260809_132423.jpg",
+      "type": "Single Room Selfcon",
       "image": "/images/993188.jpg"
     },
     {
