@@ -40,7 +40,8 @@ function renderProperties(list){
 document.getElementById('cards').innerHTML=list.map(p=>{
 const msg=encodeURIComponent(`Hello Ayomigbade Hostel Hub, I'm interested in the ${p.title}.`);
 const tag=p.featured?'FEATURED':(p.status||'AVAILABLE').toUpperCase();
-return `<article class="card" data-type="${p.type}" data-text="${(p.location+' '+p.title).toLowerCase()}"><div class="photo"><span class="tag">${tag}</span></div><div class="card-body"><h3>${p.title}</h3><div class="price">${p.price}</div><div class="meta">${p.location}${p.notes?' • '+p.notes:''}</div><div class="card-actions"><a class="btn small secondary" href="#find">Enquire</a><a class="btn small primary" href="https://wa.me/2348122226662?text=${msg}">WhatsApp</a></div></div></article>`;
+const photo=p.image?`<div class="photo" style="background-image:url('${p.image}');background-size:cover;background-position:center"><span class="tag">${tag}</span></div>`:`<div class="photo"><span class="tag">${tag}</span></div>`;
+return `<article class="card" data-type="${p.type}" data-text="${(p.location+' '+p.title).toLowerCase()}">${photo}<div class="card-body"><h3>${p.title}</h3><div class="price">${p.price}</div><div class="meta">${p.location}${p.notes?' • '+p.notes:''}</div><div class="card-actions"><a class="btn small secondary" href="#find">Enquire</a><a class="btn small primary" href="https://wa.me/2348122226662?text=${msg}">WhatsApp</a></div></div></article>`;
 }).join('');
 }
 fetch('content/properties.json').then(r=>r.json()).then(data=>renderProperties((data.properties||[]).filter(p=>p.status!=='Unavailable'))).catch(()=>{document.getElementById('cards').innerHTML='<p class="muted">Properties are being updated — please check back shortly or WhatsApp us.</p>'});
