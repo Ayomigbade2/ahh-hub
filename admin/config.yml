@@ -41,6 +41,7 @@ collections:
             widget: "list"
             fields:
               - { label: "Title", name: "title", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image", required: false, hint: "Upload a property photo" }
               - label: "Type"
                 name: "type"
                 widget: "select"
