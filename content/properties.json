@@ -3,17 +3,17 @@
     {
       "title": "Single Room Selfcon",
       "type": "Single Room Selfcon",
-      "location": "Oke Baale, Osogbo",
-      "price": "₦350,000 / year",
+      "location": "URP, Area Uniosun Osogbo",
+      "price": "₦470,000 / session ",
       "status": "Available",
       "featured": false,
       "notes": "Student-friendly"
     },
     {
-      "title": "2 Bedroom Flat",
-      "type": "2 Bedroom Flat",
-      "location": "Osogbo",
-      "price": "₦900,000 / year",
+      "title": "Mini Flat",
+      "type": "Room & Parlour Selfcon",
+      "location": "URP Area. Uniosun Osogbo",
+      "price": "₦800,000 / year",
       "status": "Available",
       "featured": true,
       "notes": "Suitable for students"
@@ -21,8 +21,8 @@
     {
       "title": "A Room Selfcon",
       "type": "A Room Selfcon",
-      "location": "Near campus area",
-      "price": "₦450,000 / year",
+      "location": "URP Area Uniosun ",
+      "price": "₦500,000 / year",
       "status": "Available",
       "featured": false,
       "notes": "Self-contained"
