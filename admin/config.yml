@@ -13,6 +13,7 @@ collections:
         label: "Homepage Text"
         file: "content/settings.json"
         fields:
+          - { label: "Hero Photo (top banner image)", name: "heroImage", widget: "image", required: false, hint: "Shows in the photo box near the top of your homepage" }
           - { label: "Eyebrow tag (small text above headline)", name: "heroEyebrow", widget: "string" }
           - { label: "Main headline", name: "heroHeadline", widget: "string" }
           - { label: "Intro paragraph", name: "heroIntro", widget: "text" }
@@ -41,7 +42,8 @@ collections:
             widget: "list"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Photo", name: "image", widget: "image", required: false, hint: "Upload a property photo" }
+              - { label: "Photos", name: "images", widget: "image", multiple: true, required: false, hint: "Tap to select one or more photos from your phone" }
+              - { label: "Video link (optional)", name: "videoUrl", widget: "string", required: false, hint: "Paste a YouTube link (upload the video as Unlisted on YouTube first, then paste the link here)" }
               - label: "Type"
                 name: "type"
                 widget: "select"
