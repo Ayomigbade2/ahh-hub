@@ -6,6 +6,28 @@ media_folder: "images"
 public_folder: "/images"
 
 collections:
+  - name: "settings"
+    label: "Site Text"
+    files:
+      - name: "settings"
+        label: "Homepage Text"
+        file: "content/settings.json"
+        fields:
+          - { label: "Eyebrow tag (small text above headline)", name: "heroEyebrow", widget: "string" }
+          - { label: "Main headline", name: "heroHeadline", widget: "string" }
+          - { label: "Intro paragraph", name: "heroIntro", widget: "text" }
+          - { label: "\"How it works\" title", name: "howItWorksTitle", widget: "string" }
+          - { label: "\"How it works\" subtitle", name: "howItWorksSubtitle", widget: "string" }
+          - { label: "Step 1 title", name: "step1Title", widget: "string" }
+          - { label: "Step 1 text", name: "step1Text", widget: "string" }
+          - { label: "Step 2 title", name: "step2Title", widget: "string" }
+          - { label: "Step 2 text", name: "step2Text", widget: "string" }
+          - { label: "Step 3 title", name: "step3Title", widget: "string" }
+          - { label: "Step 3 text", name: "step3Text", widget: "string" }
+          - { label: "Contact section headline", name: "contactHeadline", widget: "string" }
+          - { label: "Contact section text", name: "contactText", widget: "string" }
+          - { label: "Footer notice", name: "footerNotice", widget: "string" }
+
   - name: "properties"
     label: "Properties"
     label_singular: "Property"
