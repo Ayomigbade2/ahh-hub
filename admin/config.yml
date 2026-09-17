@@ -1,0 +1,40 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "properties"
+    label: "Properties"
+    label_singular: "Property"
+    files:
+      - name: "properties"
+        label: "Property Listings"
+        file: "content/properties.json"
+        fields:
+          - label: "Listings"
+            name: "properties"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Type"
+                name: "type"
+                widget: "select"
+                options:
+                  - "Apartment"
+                  - "2 Bedroom Flat"
+                  - "House"
+                  - "Room & Parlour Selfcon"
+                  - "A Room Selfcon"
+                  - "Single Room Selfcon"
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Price", name: "price", widget: "string", hint: "e.g. ₦350,000 / year" }
+              - label: "Status"
+                name: "status"
+                widget: "select"
+                options: ["Available", "Unavailable"]
+                default: "Available"
+              - { label: "Featured", name: "featured", widget: "boolean", default: false }
+              - { label: "Notes", name: "notes", widget: "string", required: false }
